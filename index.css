@@ -1,0 +1,124 @@
+body{
+    --baccolor:rgb(45, 44, 87);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--baccolor);
+    color: rgb(255, 255, 255);
+}
+.header1{
+    height: 60vh;
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to  top right,rgb(29, 27, 67) 20%,rgb(90, 82, 162),rgb(176, 190, 237));
+}
+.header1 div img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid black;
+   
+}
+h1{
+    font-size: 5rem;
+    color: aliceblue;
+    font-family: serif;
+}
+.left{
+    margin-left: 10%;
+}
+.right{
+    margin-right: 10%;
+    margin-top: 15px;
+    
+}
+.right p{
+    margin-left: 14px;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+    margin-top: 15pt;
+    font-weight: 400;
+}
+
+.header1 p{
+    color: azure;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.card1{
+    height:auto;
+    width: 400px;
+    display:flex;
+    background-color: rgb(80, 80, 116);
+    align-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    border: 4px solid rgb(29, 27, 67);
+    box-shadow: rgba(0, 0, 0, 0.63) 0px 10px 15px ;
+    word-spacing: 7px;
+
+}
+ h2 {
+    align-self: flex-start;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+.card1 img {
+    align-self: baseline;
+}
+.cards p{
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+.svgg{
+    margin-left: 16px;
+}
+.card2 {
+    height:auto;
+    width: 400px;
+    display:flex;
+    background-color: rgb(80, 80, 116);
+    align-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    border: 4px solid rgb(29, 27, 67);
+    box-shadow: rgba(0, 0, 0, 0.63) 0px 10px 15px ;
+    word-spacing: 7px;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 7rem;
+    background-blend-mode: color;
+}
+.heros h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 3em;
+}
+.heros p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin-left: 14.67%;
+    margin-right: 14.5%;
+    word-spacing: 5px;
+    text-align: center;
+}
+.heros{
+    height: 40vh;
+}
+footer{
+    text-align: center;
+    background-color: rgb(27, 26, 52);
+    padding: 10%;
+    font-weight: bolder;
+    font-size: xx-large;
+}
